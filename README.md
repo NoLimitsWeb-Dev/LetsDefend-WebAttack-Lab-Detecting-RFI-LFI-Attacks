@@ -185,11 +185,13 @@ Because SOC170 is a web-based Passwd Found in Requested URL - Possible LFI Attac
 The instructions clearly state that Tier 2 escalation is not required in cases where attacks from the internet do not succeed. Because the web server blocked the directory traversal request with an HTTP 500 error code and returned a 0-byte response payload, the attack was completely unsuccessful.
 
 <img width="977" height="651" alt="image" src="https://github.com/user-attachments/assets/bfb440fb-f786-4be4-8df6-6dd854f5d860" />
+
 ---
 
 <img width="976" height="564" alt="image" src="https://github.com/user-attachments/assets/86e25dc3-6674-456f-9382-7561d72814bf" />
 
 ### My Anaylst Note:
+
 ```
 The alert triggered due to an inbound Local File Inclusion (LFI) and directory traversal attack attempt from an external IP address (106.55.45.162) targeting the internal web server (172.16.17.13). The attack payload specifically attempted to read the sensitive Linux configuration file '/etc/passwd' via a modified URL parameter ('?file=../../../../etc/passwd'). 
 
