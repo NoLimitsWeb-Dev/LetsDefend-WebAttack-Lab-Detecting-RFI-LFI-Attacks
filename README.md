@@ -144,7 +144,7 @@ The source IP address (106.55.45.162) belongs to an external hosting infrastruct
 
 ---
 
-* Select Traffic: **Internet --> Company Network
+* Select Traffic: **Internet --> Company Network**
 <img width="995" height="435" alt="image" src="https://github.com/user-attachments/assets/e2f3705e-c913-4edf-86c7-85a405ffea15" />
 
 Because SOC170 is a web-based Passwd Found in Requested URL - Possible LFI Attack attack executing HTTP GET requests directly against a web server.
