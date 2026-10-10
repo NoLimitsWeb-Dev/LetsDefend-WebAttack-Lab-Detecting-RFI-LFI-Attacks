@@ -46,3 +46,32 @@ This screen highlights a critical security alert:
 The dashboard indicates that I am currently navigating within the Case Management section (highlighted on the left panel).
 
 Click blue Start Playbook! button.
+
+---
+
+<img width="979" height="569" alt="image" src="https://github.com/user-attachments/assets/4d3b09f5-28c8-4982-b3ac-4cacee64d71c" />
+
+This step outlines the fundamental methodology required before analyzing logs directly to determine if the alert is a false positive or a true positive:
+
+• Examining the rule name: SOC170 — Passwd Found in Requested URL - Possible LFI Attack
+
+• Detected traffic communication: The source 106.55.45.162 and destination devices 172.16.17.13 (Host Name: Webserver1006)
+
+This helps map out the direction of the traffic, the communication flow, and the specific network protocols used.
+
+---
+
+* Click Log Management
+* Click Basic
+* Type in One of the IoC”s eg. Source IP Address: 106.55.45.162
+
+<img width="1902" height="754" alt="image" src="https://github.com/user-attachments/assets/93714fdd-0990-4a4e-aaa3-f85233421750" />
+
+Result: It displays only the traffic between the source 106.55.45.162 and destination devices 172.16.17.13 (Host Name: Webserver1006)
+
+### Protocols
+
+|  Source Port  |  Destination Port  |
+|  :---  |  :---  |
+|  Port: 49028  |  Port: 443  |
+|   This strongly indicates it is functioning as an ephemeral (temporary) client port, which is typical and standard behavior for outbound network traffic.  |  This is a globally trusted reputation as the industry standard for HTTPS (Hypertext Transfer Protocol Secure).  |
