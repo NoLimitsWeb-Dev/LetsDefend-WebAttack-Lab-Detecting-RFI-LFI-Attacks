@@ -75,3 +75,16 @@ Result: It displays only the traffic between the source 106.55.45.162 and destin
 |  :---  |  :---  |
 |  Port: 49028  |  Port: 443  |
 |   This strongly indicates it is functioning as an ephemeral (temporary) client port, which is typical and standard behavior for outbound network traffic.  |  This is a globally trusted reputation as the industry standard for HTTPS (Hypertext Transfer Protocol Secure).  |
+
+---
+
+<img width="981" height="661" alt="image" src="https://github.com/user-attachments/assets/0c017063-3f16-4b40-aa36-00ad1da07cfc" />
+
+<img width="1919" height="830" alt="image" src="https://github.com/user-attachments/assets/1f451c37-0355-462a-bcdc-eaf54d955f51" />
+
+<img width="1890" height="808" alt="image" src="https://github.com/user-attachments/assets/3f666509-fcf3-4959-99a1-16c46653ea2f" />
+<img width="1892" height="778" alt="image" src="https://github.com/user-attachments/assets/c63b3e5e-5ff4-4dd0-9cea-7e3036f2f176" />
+
+
+
+
