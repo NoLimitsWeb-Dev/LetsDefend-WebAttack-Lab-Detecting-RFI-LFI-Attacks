@@ -81,10 +81,22 @@ Result: It displays only the traffic between the source 106.55.45.162 and destin
 <img width="981" height="661" alt="image" src="https://github.com/user-attachments/assets/0c017063-3f16-4b40-aa36-00ad1da07cfc" />
 
 <img width="1919" height="830" alt="image" src="https://github.com/user-attachments/assets/1f451c37-0355-462a-bcdc-eaf54d955f51" />
+• VirusTotal Reputation: 0 / 92 Malicious Flags (Completely clean according to security vendors, though it holds a community score of -7).
 
 <img width="1890" height="808" alt="image" src="https://github.com/user-attachments/assets/3f666509-fcf3-4959-99a1-16c46653ea2f" />
 <img width="1892" height="778" alt="image" src="https://github.com/user-attachments/assets/c63b3e5e-5ff4-4dd0-9cea-7e3036f2f176" />
 
+AbuseIPDB Reputation: 0% Abuse Confidence Score (Low Risk). While it has been reported 3,435 times from 519 distinct sources. 106.55.45.162 was first reported on April 19th 2021, and the most recent report was 9 months ago., indicating its abusive activity has decayed or stopped recently.
+
+### Summary Analysis:
+The IP belongs to a public cloud provider/VPS infrastructure (DigitalOcean). While threat intelligence engines currently rate it as “clean” due to a lack of recent activity (last 60 days), its classification as a hosted data center IP makes it highly suspicious when initiating inbound web attacks, as threat actors frequently rent temporary cloud servers to launch automated exploit campaigns.
 
 
+|  ISP  |  Tencent cloud computing (Beijing) Co., Ltd.  |
+|  :---  |  :---  |
+|  Usage Type  |  Data Center/Web Hosting/Transit  |
+|  ASN  |  AS45090  |
+|  Domain Name  |  tencentcloud.com  |
+|  Country  |  🇨🇳 China  |
+|  City|  Guangzhou, Guangdong  |
 
