@@ -112,7 +112,8 @@ While threat intelligence engines currently rate it as “clean” due to a lack
 
 The HTTP Response Status code is 500 (Internal Server Error) and the HTTP Response Size is 0 bytes. This indicates that while the malicious Request URL: ```https://172.16.17.13/?file=../../../../etc/passwd``` reached the web application, the server encountered an error processing it and did not leak or return any sensitive data payload back to the attacker.
 
-Key Analytical Findings
+### Key Analytical Findings
+
 • Suspicious User-Agent: The request uses an ancient User-Agent string corresponding to Internet Explorer 6.0 on Windows XP. This is a massive red flag in a modern production environment, strongly suggesting an automated scanner, exploit tool, or manual script spoofing the browser identity.
 
 • Failed Response: The HTTP Response Status is 500 (Internal Server Error), the HTTP Response Size is 0 bytes and the Device Action is Permitted. Although Request URL: ```https://172.16.17.13/?file=../../../../etc/passwd``` reached the web application, the server encountered an error processing it and did not leak or return any sensitive data payload back to the attacker.
